@@ -34,7 +34,7 @@ obj:
 	
 obj/%.o: %.cc $(HTTPLIB_H)
 	@echo "	CXX	$<"
-	@g++ $(CXXFLAG)   -g -O2 -pipe -ffast-math -Wall -Wempty-body -Wno-switch -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-clobbered -Wshadow  -I../common -DHAS_TLS -fno-strict-aliasing -DHAVE_SETRLIMIT -DHAVE_STRNLEN  -I/usr/include -DHAVE_MONOTONIC_CLOCK -DCPPHTTPLIB_SEND_FLAGS=MSG_NOSIGNAL -g -c $(OUTPUT_OPTION) $<
+	@g++ $(CXXFLAG)   -g -O2 -pipe -ffast-math -Wall -Wempty-body -Wno-switch -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-clobbered -Wshadow  -I../common -DHAS_TLS -fno-strict-aliasing -DHAVE_SETRLIMIT -DHAVE_STRNLEN -DPACKETVER=20200401  -I/usr/include -DHAVE_MONOTONIC_CLOCK -DCPPHTTPLIB_SEND_FLAGS=MSG_NOSIGNAL -g -c $(OUTPUT_OPTION) $<
 
 httplib: obj $(HTTPLIB_DIR_OBJ) $(HTTPLIB_AR)
 
