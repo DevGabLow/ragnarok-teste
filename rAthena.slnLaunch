@@ -5,22 +5,22 @@
       {
         "Path": "src\\login\\login-server.vcxproj",
         "Action": "Start",
-        "DebugTarget": "Local Windows Debugger"
+        "DebugTarget": "Depurador Local do Windows"
       },
       {
         "Path": "src\\char\\char-server.vcxproj",
         "Action": "Start",
-        "DebugTarget": "Local Windows Debugger"
+        "DebugTarget": "Depurador Local do Windows"
       },
       {
         "Path": "src\\map\\map-server.vcxproj",
         "Action": "Start",
-        "DebugTarget": "Local Windows Debugger"
+        "DebugTarget": "Depurador Local do Windows"
       },
       {
         "Path": "src\\web\\web-server.vcxproj",
         "Action": "Start",
-        "DebugTarget": "Local Windows Debugger"
+        "DebugTarget": "Depurador Local do Windows"
       }
     ]
   }

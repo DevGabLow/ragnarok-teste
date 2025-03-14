@@ -17,58 +17,20 @@
 
 // Entrance NPCs
 //============================================================
-prontera,132,125,4	script	Bossnia Staff#1	908,{
+prontera,132,216,4	script	CheChenia#1	908,{
 	mes "[Riss]";
 	mes "Hello?";
 	mes "I found some beautiful places";
 	mes "while I travelled all over the world.";
 	mes "I am an adventurer.";
 	mes "Haha~";
-	next;
-	mes "[Riss]";
-	mes "What? My name is...";
-	mes "'Bossnia Staff'?? No no...";
-	mes "Well, my name is not so important.";
-	mes "Sometimes you should be generous.";
-	mes "No time for considering that kind of small stuff";
-	mes "when you have to concentrate on more important things.";
-	next;
-	mes "[Riss]";
-	mes "Hum... anyway I want to say... something..";
-	mes "While I was travelling through some places,";
-	mes "I found a really fearful place.";
-	next;
-	mes "[Riss]";
-	mes "Most of the time when you come to a place,";
-	mes "there is one strong and fearful monster.";
-	mes "Isn't it?";
-	next;
-	mes "[Riss]";
-	mes "But... but... in there...";
-	mes "There are lots of fearful and strong monsters in there...";
-	mes "That was really frightful.";
-	next;
-	mes "[Riss]";
-	mes "If I had reacted a bit later... a few seconds...";
-	mes "I might have been killed.";
-	next;
-	mes "[Riss]";
-	mes "What?";
-	mes "You want to go in there?";
-	mes "Oh~ Boy~ you didn't get me.";
-	mes "In there.......";
-	next;
-	mes "[Riss]";
-	mes "Uh... you already know?";
-	mes "Although you know the place, you want to go in...";
-	mes "Good, I will send you there.";
-	mes "But after you went there, don't hold";
+	
 
 	// If the VIP system is enabled, players pay a Reset Stone for 5 entrances (with a choice of warps).
 	// If it's disabled, players pay 5,000z per entrance.
 	if (VIP_SCRIPT) {
 		mes "a grudge against me. It'll cost you 1 Reset Stone for 5 access.";
-		next;
+		
 		mes "[Riss]";
 		if (bossnia_event > 0) {
 			set .@type,1;
@@ -124,11 +86,11 @@ prontera,132,125,4	script	Bossnia Staff#1	908,{
 		}
 	}
 }
-geffen,124,169,4	duplicate(Bossnia Staff#1)	Bossnia Staff#2	908
-payon,165,150,4	duplicate(Bossnia Staff#1)	Bossnia Staff#3	908
-morocc,142,100,4	duplicate(Bossnia Staff#1)	Bossnia Staff#4	908
-lighthalzen,203,140,4	duplicate(Bossnia Staff#1)	Bossnia Staff#5	908
-rachel,132,144,4	duplicate(Bossnia Staff#1)	Bossnia Staff#6	908
+geffen,124,169,4	duplicate(CheChenia#1)	CheChenia#2	908
+payon,165,150,4	duplicate(CheChenia#1)	CheChenia#3	908
+morocc,142,100,4	duplicate(CheChenia#1)	CheChenia#4	908
+lighthalzen,203,140,4	duplicate(CheChenia#1)	CheChenia#5	908
+rachel,132,144,4	duplicate(CheChenia#1)	CheChenia#6	908
 
 // Warp Portals
 //============================================================
@@ -315,3 +277,29 @@ bossnia_04,122,195,1,1	monster	Beelzebub	1873,1
 bossnia_04,45,118,1,1	monster	Beelzebub	1873,1
 bossnia_04,196,122,1,1	monster	Valkyrie Randgris	1751,1
 bossnia_04,142,61,1,1	monster	Ifrit	1832,1
+
+
+bossnia_01	mapflag	nowarpto
+bossnia_02	mapflag	nowarpto
+bossnia_03	mapflag	nowarpto
+bossnia_04	mapflag	nowarpto
+bossnia_01	mapflag	nowarp
+bossnia_02	mapflag	nowarp
+bossnia_03	mapflag	nowarp
+bossnia_04	mapflag	nowarp
+bossnia_01	mapflag	nomemo
+bossnia_02	mapflag	nomemo
+bossnia_03	mapflag	nomemo
+bossnia_04	mapflag	nomemo
+bossnia_01	mapflag	nobranch
+bossnia_02	mapflag	nobranch
+bossnia_03	mapflag	nobranch
+bossnia_04	mapflag	nobranch
+bossnia_01	mapflag	noreturn
+bossnia_02	mapflag	noreturn
+bossnia_03	mapflag	noreturn
+bossnia_04	mapflag	noreturn
+bossnia_01	mapflag	nosave	SavePoint
+bossnia_02	mapflag	nosave	SavePoint
+bossnia_03	mapflag	nosave	SavePoint
+bossnia_04	mapflag	nosave	SavePoint

@@ -1,0 +1,16 @@
+﻿  cli.cpp
+  conf.cpp
+  core.cpp
+  des.cpp
+  grfio.cpp
+  malloc.cpp
+  mapindex.cpp
+  md5calc.cpp
+  msg_conf.cpp
+  nullpo.cpp
+  random.cpp
+  showmsg.cpp
+  strlib.cpp
+  utils.cpp
+  winapi.cpp
+  common-minicore.vcxproj -> \\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore.lib

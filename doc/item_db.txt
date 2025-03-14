@@ -292,3 +292,10 @@ EquipScript: Script to execute when the item is equipped.
 
 UnEquipScript: Script to execute when the item is unequipped or when a rental item expires.
                Warning, not all item bonuses will work here as expected.
+               
+670,Gold_Coin_Moneybag,Sacola de Moedas de Ouro,2,1,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 671,10; },{},{}
+676,Silver_Coin_Moneybag,Sacola de Moedas de Prata,2,1,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 675,10; },{},{}
+672,Copper_Coin_Moneybag,Sacola de Moedas de Bronze,2,1,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ getitem 673,10; },{},{}
+671,Gold_Coin,Moeda de Ouro,2,1,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ RouletteGold++; dispbottom "[Roleta] : Uma moeda de ouro foi inserida."; },{},{}
+675,Silver_Coin,Moeda de Prata,2,1,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ RouletteSilver++; dispbottom "[Roleta] : Uma moeda de prata foi inserida."; },{},{}
+673,Copper_Coin,Moeda de Bronze,2,1,,10,,,,,0xFFFFFFFF,7,2,,,,,,{ RouletteBronze++; dispbottom "[Roleta] : Uma moeda de bronze foi inserida."; },{},{}

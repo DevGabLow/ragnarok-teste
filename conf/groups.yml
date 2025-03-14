@@ -241,7 +241,7 @@ Body:
       bypass_max_stat: true
       macro_register: true
       trade_unconditional: true
-      #all_permission: true
+      all_permission: true
 
 Footer:
   Imports:

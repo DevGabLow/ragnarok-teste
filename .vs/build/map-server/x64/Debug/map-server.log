@@ -1,0 +1,45 @@
+﻿  achievement.cpp
+  atcommand.cpp
+  battle.cpp
+  battleground.cpp
+  buyingstore.cpp
+  cashshop.cpp
+  channel.cpp
+  chat.cpp
+  chrif.cpp
+  clan.cpp
+  clif.cpp
+  date.cpp
+  duel.cpp
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\map\clif.cpp(12441,43): warning C4267: 'argumento': conversão de 'size_t' para 'int32', possível perda de dados
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\map\clif.cpp(13394,43): warning C4267: 'argumento': conversão de 'size_t' para 'int32', possível perda de dados
+  elemental.cpp
+  guild.cpp
+  homunculus.cpp
+  instance.cpp
+  intif.cpp
+  itemdb.cpp
+  log.cpp
+  mail.cpp
+  map.cpp
+  mapreg.cpp
+  mercenary.cpp
+  mob.cpp
+  navi.cpp
+  npc.cpp
+  npc_chat.cpp
+  party.cpp
+  path.cpp
+  pc.cpp
+  pc_groups.cpp
+  pet.cpp
+  quest.cpp
+  script.cpp
+  searchstore.cpp
+  skill.cpp
+  status.cpp
+  storage.cpp
+  trade.cpp
+  unit.cpp
+  vending.cpp
+  map-server.vcxproj -> \\wsl.localhost\Ubuntu\home\darkside\rathena\map-server.exe

@@ -35,7 +35,7 @@ obj:
 
 obj/%.o: %.cpp $(RAPIDYAML_H)
 	@echo "	CXX	$<"
-	@g++ $(CXXFLAG)   -g -O2 -pipe -ffast-math -Wall -Wempty-body -Wno-switch -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-clobbered -Wshadow  -I../common -DHAS_TLS -fno-strict-aliasing -DHAVE_SETRLIMIT -DHAVE_STRNLEN -DPACKETVER=20200401  -I/usr/include -DHAVE_MONOTONIC_CLOCK -g $(INC) -c $(OUTPUT_OPTION) $<
+	@g++ $(CXXFLAG)   -g -O2 -pipe -ffast-math -Wall -Wempty-body -Wno-switch -Wno-missing-field-initializers -Wno-maybe-uninitialized -Wno-clobbered -Wshadow  -I../common -DHAS_TLS -fno-strict-aliasing -DHAVE_SETRLIMIT -DHAVE_STRNLEN -DPACKETVER=20220330  -I/usr/include -DHAVE_MONOTONIC_CLOCK -g $(INC) -c $(OUTPUT_OPTION) $<
 
 rapidyaml: obj $(RAPIDYAML_DIR_OBJ) $(RAPIDYAML_AR)
 

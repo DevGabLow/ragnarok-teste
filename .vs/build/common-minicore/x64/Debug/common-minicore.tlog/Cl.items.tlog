@@ -1,0 +1,15 @@
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\cli.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\cli.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\conf.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\conf.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\core.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\core.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\des.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\des.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\grfio.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\grfio.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\malloc.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\malloc.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\mapindex.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\mapindex.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\md5calc.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\md5calc.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\msg_conf.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\msg_conf.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\nullpo.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\nullpo.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\random.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\random.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\showmsg.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\showmsg.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\strlib.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\strlib.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\utils.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\utils.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\common\winapi.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\common-minicore\x64\Debug\winapi.obj

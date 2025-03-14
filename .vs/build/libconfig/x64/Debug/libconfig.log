@@ -1,0 +1,6 @@
+﻿  grammar.c
+  libconfig.c
+  scanctx.c
+  scanner.c
+  strbuf.c
+  libconfig.vcxproj -> \\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\libconfig.lib

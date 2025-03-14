@@ -1,0 +1,9 @@
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\web\auth.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\web-server\x64\Debug\auth.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\web\charconfig_controller.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\web-server\x64\Debug\charconfig_controller.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\web\emblem_controller.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\web-server\x64\Debug\emblem_controller.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\web\merchantstore_controller.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\web-server\x64\Debug\merchantstore_controller.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\web\partybooking_controller.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\web-server\x64\Debug\partybooking_controller.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\web\sqllock.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\web-server\x64\Debug\sqllock.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\web\userconfig_controller.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\web-server\x64\Debug\userconfig_controller.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\web\webutils.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\web-server\x64\Debug\webutils.obj
+\\wsl.localhost\Ubuntu\home\darkside\rathena\src\web\web.cpp;\\wsl.localhost\Ubuntu\home\darkside\rathena\.vs\build\web-server\x64\Debug\web.obj
