@@ -11,10 +11,10 @@
   clif.cpp
   date.cpp
   duel.cpp
-  elemental.cpp
-  guild.cpp
 \\wsl.localhost\Ubuntu\home\darkside\rathena\src\map\clif.cpp(12441,43): warning C4267: 'argumento': conversão de 'size_t' para 'int32', possível perda de dados
 \\wsl.localhost\Ubuntu\home\darkside\rathena\src\map\clif.cpp(13394,43): warning C4267: 'argumento': conversão de 'size_t' para 'int32', possível perda de dados
+  elemental.cpp
+  guild.cpp
   homunculus.cpp
   instance.cpp
   intif.cpp

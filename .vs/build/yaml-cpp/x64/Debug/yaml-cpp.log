@@ -13,9 +13,9 @@
   exp.cpp
   memory.cpp
   node.cpp
+  node_data.cpp
   nodebuilder.cpp
   nodeevents.cpp
-  node_data.cpp
   null.cpp
   ostream_wrapper.cpp
   parse.cpp
